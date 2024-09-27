@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(255, 205, 148, 0.39);
+            height:802.938px;
+        }
+
+        header {
+            background-color: rgba(255, 205, 148, 0.39);
+            color: #000000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color:rgba(255, 205, 148, 0.39); /* Light yellow */
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px 0;
+            background-color: rgba(255, 205, 148, 0.39); /* Dark green */
+            color: #ffffff;
+            display: flex;
+            color:#555;
+            letter-spacing: inherit;
+            box-sizing: inherit;
+            font-weight: 400;\font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        }
+
+        .navigation{
+            color:black;
+        }
+
+        .head{
+            color: #000000;
+            font-size: 80px;
+            font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+            background-color: rgba(255, 205, 148, 0.39);
+        }
+        .buttom, .box{
+            color: white;
+            font-size: 20px;
+            padding: 0px 20px;
+            text-align: center;
+            display: inline-block;
+            border-width: 0px;
+            border-radius: 99em;
+            border-color: rgba(25, 25, 25, 1);
+            background: rgba(25, 25, 25, 1);
+            font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: left;font-family: sohne, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 2px 2px;color: #000000;">Medium</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a style="color: #000000;" href="#">Our Story</a></li>
+                <li><a style="color: #000000;" href="#">Membership</a></li>
+                <li><a style="color: #000000;" href="#">Write</a></li>
+                <li><a style="color: #000000;" href="#">Sign in</a></li>
+                <li><a class="box" href="#">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div>
+            <div class="head">
+                <p>Human <br>stories & ideas</p>
+            </div>
+            <div>
+                <p style="font-size: 22px; font-weight: 400;font-family: sohne, Arial, sans-serif; display: block;box-sizing:border-box;">A place to read,write, and deepen your understanding</p> 
+            </div>
+            <div class="buttom"><p>Start reading</p></div>
+        </div>
+    
+    <footer>
+        <p> Help</p>
+        <p> Status</p>
+        <p> About</p>
+        <p> Careers</p>
+        <p> Press</p>
+        <p> Blog</p>
+        <p> Privacy</p>
+        <p> Terms</p>
+        <p> Text to speech</p>
+        <p> Teams</p>
+    </footer>
+</body>
+</html>
